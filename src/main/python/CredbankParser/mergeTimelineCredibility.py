@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+# Given a file in the format of cred_event_TurkRatings.data
+# and a file from buildTopicTweetTimeline.py, merge the two 
+# files to create a single file with both ratings and tweet
+# IDs
+
 import numpy as np
 import json
 import sys

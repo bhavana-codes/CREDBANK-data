@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+# Given a file in the format of cred_event_SearchTweets.data,
+# find the topic key, terms, count, and tweet data. Then output
+# the topic ID, term count, and list of tweet IDs.
+
 import json
 import sys
 import re
